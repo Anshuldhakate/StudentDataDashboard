@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header setView={setView} />
+      <Header setView={setView} view={view} />
       <MainContent 
         students={students} 
         view={view} 

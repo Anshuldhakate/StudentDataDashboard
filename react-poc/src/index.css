@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.horizontal-menu button {
+  background-color: #e76f51;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.horizontal-menu .active-button {
+  background-color: #dae10f; 
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

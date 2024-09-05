@@ -1,11 +1,10 @@
 import React from 'react';
 
-function Header({ setView }) {
+function Header({ setView, view }) {
   return (
     <header className="header">
       <nav>
         <div className="hamburger-menu">
-          {/* Hamburger Menu with Sub-menu */}
           <button className="menu-button">Menu</button>
           <ul className="menu-list">
             <li>Home</li>
@@ -20,9 +19,18 @@ function Header({ setView }) {
           </ul>
         </div>
         <div className="horizontal-menu">
-          {/* Horizontal Menu */}
-          <button onClick={() => setView('grid')}>Grid View</button>
-          <button onClick={() => setView('tile')}>Tile View</button>
+          <button 
+            onClick={() => setView('grid')} 
+            className={view === 'grid' ? 'active-button' : ''}
+          >
+            Grid View
+          </button>
+          <button 
+            onClick={() => setView('tile')} 
+            className={view === 'tile' ? 'active-button' : ''}
+          >
+            Tile View
+          </button>
         </div>
       </nav>
     </header>
