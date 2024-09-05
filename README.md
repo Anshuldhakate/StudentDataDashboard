@@ -28,11 +28,11 @@ A React-based application that displays student information in a grid or tile vi
       cd student-data-dashboard
    
 3. Install dependencies:
-  ```bash
-     npm install
+   ```bash
+      npm install
 
 4. Start the development server:
-  ```bash
-     npm start
+   ```bash
+      npm start
 
 5. Open http://localhost:3000 in your browser to view the application.
