@@ -5,6 +5,9 @@ A React-based application that displays student information in a grid or tile vi
 ## Deployed Link- 
 https://genuine-raindrop-dd6328.netlify.app
 
+<img width="943" alt="Screenshot 2024-09-05 165008" src="https://github.com/user-attachments/assets/a052975a-e232-4590-b2e7-15adfc562d7a">
+
+
 ## Features
 
 - **Grid View**: Displays student data in a table format.
