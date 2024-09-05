@@ -2,6 +2,9 @@
 
 A React-based application that displays student information in a grid or tile view, with the option to view detailed information about each student. The application fetches data from an external API and allows users to switch between views and view details of individual students.
 
+## Deployed Link- 
+https://genuine-raindrop-dd6328.netlify.app
+
 ## Features
 
 - **Grid View**: Displays student data in a table format.
